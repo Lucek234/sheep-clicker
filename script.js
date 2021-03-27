@@ -65,6 +65,7 @@ $('#buy-hay-button').click(function () {
     // sianko_mod += 0.3;g
     if (stan_gry.sianko_counter == 0) { stan_gry.sianko_counter = 1; }
     else stan_gry.sianko_counter += stan_gry.sianko_counter;
+    stan_gry.cena_sianka *= 4;
 })
 
 $('#troll-button').click(function () {
