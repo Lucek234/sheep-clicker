@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OWCA Clicker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script   src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="main">
+
+        <div id="home-container" class="column side">
+            <p><button id="buy-sheep-button">Kup owcę (<span id="sheep-cost"></span> €)</button></p>
+            <p><button id="buy-hay-button">Kup sianko (<span id="hay-cost"></span> €)</button></p>
+            <p><button id="buy-time-button">Kup czas (<span id="time-cost"></span> €)</button></p>
+            <p><button id="troll-button"><p>???</p> <p>(<span id="troll-cost"></span> €)</p></button></p>
+        </div>
+        <div class="column" id="main-column">
+            
+            <div id="text-container">
+                <p id="text-element"></p>
+            </div>
+            <div id="sheep-container">
+                <img src="assets/cal.png" id="sheep-element">
+            </div>
+        </div>
+        <div id="stats-container" class="column side">
+            <div id="timer-element"></div>
+        </div>
+
+    </div>
+    <script src="script.js">    </script>
+</body>
+
+</html>
